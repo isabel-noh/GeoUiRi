@@ -12,9 +12,7 @@ function Home(props) {
   }
   else if (type === 'on'){
     return (
-      <>
-        <HomeHeader />
-      </>
+      <HomeHeader />
     )
   }
 }
