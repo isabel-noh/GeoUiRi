@@ -1,4 +1,3 @@
-import { getByDisplayValue } from "@testing-library/dom";
 import React, { useState, useEffect, useHistory, useRef } from "react";
 import styled from "styled-components";
 import snap from "../assets/img/snap.gif";
