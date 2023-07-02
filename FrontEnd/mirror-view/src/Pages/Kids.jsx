@@ -72,9 +72,7 @@ function Kids(props) {
         {
           {
             first_appear: (
-              <>
-                <Rule setComp={setComp} />
-              </>
+              <Rule setComp={setComp} />
             ),
             // 시계만 있는 ('/')과 같은 페이지
             none: (
@@ -118,15 +116,11 @@ function Kids(props) {
             ),
             // 카메라 촬영 모드
             camera: (
-              <>
-                <Timer setComp={setComp} />
-              </>
+              <Timer setComp={setComp} />
             ),
             // 기본 화면
             kidsDefault: (
-              <>
-                <KidsDefault />
-              </>
+              <KidsDefault />
             ),
           }[comp]
         }
