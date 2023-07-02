@@ -7,6 +7,7 @@ import { FortuneTeller, HomeHeader } from "../Components";
 
 function GeneralView(props) {
     const { webSocket } = props;
+    // 왜 이렇게 옵셔널체이닝을 많이 써야만 데이터를 인식하는가???? 
     const member_info_widget = useSelector((state) => state?.mirror?.member?.widget);
     const fortune = useSelector((state) => state?.mirror?.member?.fortune);
     const no_calendar = member_info_widget?.calender;
